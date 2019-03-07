@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+</style>
+
 @import "bootstrap";
 
 .clear {
@@ -35,5 +39,19 @@
   color: #D81FDE;
   font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+
+}
+header {
+  border-top: 9px solid #222222;
+}
+hr {
+  clear:both;
+}
+h1 {
+  font-family: 'Indie Flower', cursive;
+
+}
+h2 {
+  font-family: 'Indie Flower', cursive;
 
 }
