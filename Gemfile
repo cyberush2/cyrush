@@ -19,8 +19,8 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 
-#gem 'bootstrap', '~> 4.3.1'
-#gem 'simple_form'
+gem 'bootstrap', '~> 4.3.1'
+gem 'simple_form'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -52,7 +52,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-#gem 'popper_js', '~> 1.11.1'
+gem 'popper_js', '~> 1.11.1'
 #gem 'bootstrap', '4.0.0.alpha6'
 #gem 'simple_form'
 
@@ -62,6 +62,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
-gem 'simple_form'
+#gem 'popper_js', '~> 1.11.1'
+#gem 'bootstrap', '4.0.0.alpha6'
+#gem 'simple_form'
