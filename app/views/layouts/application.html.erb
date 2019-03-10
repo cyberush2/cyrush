@@ -3,12 +3,57 @@
   <head>
     <title>Splurty</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+    <header class="row">
+      <div class="col-3">
+      <div class="circle">
+  <br />
+  keep
+  <br />
+  YOUR CODE
+  <br />
+  Going
+</div>
+ </div>
+    <div class="col-4" slogan>
+       Splurting out unsolicited advice about entrepreneurship since 2016
+     </div>
+
+     <div class="col-5 links">
+      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'About', '#' %>
+    </div>
+  </header>
+  <hr />
+
+  <br class="clear" />
+
+  <div class="container">
     <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- <p class="text-muted">Place sticky footer content here.</p> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+      <div class="col-6">
+        <!-- This isn't enough, I need more -->
+         <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+      </div>
+      <!-- <div class="col-6 footer-blurb"> -->
+      <div class="col-6 footer-blurb">
+        Proudly hacked by <a href="[splurty-cy-rush.herokuapp.com]">ARTeMIO</a><br />
+        Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+        <!-- <p class="text-muted">just because i'm a footer, doesn't mean i ain't on top of it </p> -->
+    </div>
+  </div>
+</div>
+</div>
   </body>
 </html>

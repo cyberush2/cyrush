@@ -1,5 +1,10 @@
 #class QuotesController < ApplicationController
-  def index
+  def inde
     @quote = Quote.first
+=======
+
   end
+
+
+ 
 #end
